@@ -1,0 +1,96 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+body {
+    height: 100%;
+    background-size: cover;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #818181;
+}
+
+#calculator {
+    position: relative;
+    width: 350px;
+    height: auto;
+    margin: 7% auto;
+    background-color: #dfd8d0;
+    border-radius: 10px;
+}
+
+#button-section {
+    position: relative;
+}
+
+button {
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    margin: 0.5em;
+    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    top: 0px;
+    transition: all ease 0.3s;
+    padding: 1em;
+}
+
+button:active {
+    box-shadow: 0px 1px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    top: 4px;
+}
+
+button, button:hover, button:active, button:visited {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+#electronic-screen {
+    margin: 1.5em;
+    background-color: #c3c2ab;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    position: relative;
+    top: 10px;
+}
+
+#top-line p {
+    font-size: 30px;
+    color: #333333;
+    margin: 5px 10px 0px;
+}
+
+#bottom-line p {
+    color: #333333;
+    margin: 5px 12px 10px;
+}
+
+#ac, #ce {
+    background-color: #a72d45;
+    box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+#divide, #multiply, #seven, #eight, #nine, #minus, #four, #five, #six, #plus, #one, #two, #three, #equals {
+    background-color: #3a3a3a;
+}
+
+#zero {
+    padding: 1em 5.5em;
+    background-color: #3a3a3a;
+}
+
+#point {
+    padding: 1em 5.5em;
+    background-color: #3a3a3a;
+}
